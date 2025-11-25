@@ -1,0 +1,37 @@
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.top-suit {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-suit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.value {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+}
